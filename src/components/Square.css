@@ -1,0 +1,68 @@
+
+
+.square
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 54px;
+    height: 54px;
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+}
+.avaliable::after{
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #491;
+    border-radius: 50%;
+}
+.target{
+    border: 3px solid #a22;
+
+}
+.piece{
+    pointer-events: none;
+    width: 40px;
+    animation: pieceAppear .3s forwards;
+}
+
+.piece.black{
+    transform: rotate(180deg);
+}
+
+.square.selected{
+    border: 3px solid #491;
+}
+.check{
+    border: 3px solid #991;
+    animation: check 1s infinite;
+}
+
+@keyframes check{
+    0%{
+
+    border: 3px solid #991;
+
+    }
+    50%{
+    border: 3px solid #911;
+
+    }
+    100%{
+    border: 3px solid #991;
+
+    }
+}
+
+@keyframes pieceAppear {
+    from{
+    width: 70px;
+    opacity: 50%;
+    }to{
+        width: 47px;
+
+    }
+}

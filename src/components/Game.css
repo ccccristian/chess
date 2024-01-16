@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.game
+{
+    min-height: 100vh;
+    background: url('./background.jpg');
+    display: flex;
+    justify-content: space-around;
+}
+
+.title
+{
+
+    padding-top: 100px;
+    padding-right: 50px;
+    font-size: 25px;
+}
+.title h1{
+    font-size: 80px;
+}
+
+
+button
+{
+    padding: 10px 20px;
+    font-size: 15px;
+    border: 1px solid #999;
+    background: none;
+    color: #eee;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.players{
+    position: relative;
+    height: 350px;
+}
+.players img
+{
+    position: absolute;
+    opacity: 60%;
+    transition: all .3s;
+    scale: 0.8;
+
+}
+.players img.current-player{
+    transform: translateX(-170%);
+    opacity: 100%;
+    scale: 1.1;
+
+}

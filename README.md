@@ -1,8 +1,5 @@
 <div id = "header" align = "center">
-<<<<<<< HEAD
-    <img src="https://raw.githubusercontent.com/ccccristian/chess/main/presentation.gif?token=GHSAT0AAAAAACMMZ7WU3AZR5FOQIDWWVKWIZNGUWIA" width="600" />
-=======
->>>>>>> f7eae7d02fa4ff85719e6f24638994a39337be7b
+    <img src="https://raw.githubusercontent.com/ccccristian/chess/main/presentation.gif?token=GHSAT0AAAAAACMMZ7WUL27QZIZOTOIWBL6CZNGVQ3Q" width="600" />
     <h1 align = "center">Chess made in React.js</h1>
     <h3 align = "center">A chess game made entirely in React.js</h3>
 </div>
